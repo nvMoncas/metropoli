@@ -1,9 +1,16 @@
 @font-face {
-    font-family: "myFirstFont";
+    font-family: "cinzel-r";
     src: url("/font/cinzel/Cinzel-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: "cinzel-b";
+    src: url("/font/cinzel/static/Cinzel-SemiBold.ttf");
+}
 .cinzel{
-    font-family: "myFirstFont";
+    font-family: "cinzel-r";
+}
+.cinzel-bold{
+    font-family: "cinzel-b";
 }
 nav{
     z-index: 5;
@@ -56,6 +63,7 @@ and (max-width : 768px) {
     }
     .footer-siguenos{
         order: 0;
+        font-size: ;
     }
     .footer-empresa{
         order: 3;
