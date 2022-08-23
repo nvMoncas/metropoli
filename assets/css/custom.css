@@ -2,10 +2,9 @@
     font-family: "myFirstFont";
     src: url("/font/cinzel/Cinzel-VariableFont_wght.ttf");
 }
-.cinzel {
+.cinzel{
     font-family: "myFirstFont";
 }
-
 nav{
     z-index: 5;
 }
@@ -20,14 +19,60 @@ footer{
 .carousel-inner{
     height: 100vh;
 }
+#navbar-id{
+    background-color: transparent!important;
+    transition: all .2s;
+}
+.container-fluid{
+    transition: all .2s;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
     /* Styles */
+    #navbar-id.bg-dark.navbar-mobile-open{
+        background-color: #606d5b!important;
+        height: 100vh;
+        z-index: 50;
+    }
+    .navbar>.container-fluid.navbar-container-mobile{
+        height: 100%;
+        align-items: flex-start;
+    }
+    .navbar-close-button{
+        margin-top: 20vh;
+    }
     footer{
         margin-top: 1rem;
     }
     .carousel-inner{
         height: auto;
+    }
+    .footer-info{
+        order: 1;
+    }
+    .footer-direccion{
+        order: 2;
+    }
+    .footer-siguenos{
+        order: 0;
+    }
+    .footer-empresa{
+        order: 3;
+        position: relative;
+    }
+    .footer-derechos{
+        order: 4;
+    }
+    .footer-empresa:after{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        height: 1px;
+        background-color: #616d5b;
     }
 }
