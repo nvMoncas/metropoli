@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "cinzel-b";
-    src: url("/font/cinzel/static/Cinzel-SemiBold.ttf");
+    src: url("/font/cinzel/static/Cinzel-Bold.ttf");
 }
 .cinzel{
     font-family: "cinzel-r";

@@ -10,41 +10,41 @@
     <meta name="description" content="">
     <meta name="author" content="Metropoli SA">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../assets/img/favicon-metropoli.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../assets/img/favicon-metropoli.png" type="image/x-icon" />
     
     <!-- custom -->
-    <link rel="stylesheet" href="../assets/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/custom.css" type="text/css">
     
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" type="text/css">
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
 </head>
     <body>
-        <Header class="position-relative">
-            <nav id="navbar-id" class="navbar navbar-expand-md navbar-dark bg-dark cinzel w-100 position-absolute top-0" >
+        <Header class="d-flex flex-column position-relative">
+          <nav id="navbar-id" class="navbar navbar-expand-md navbar-dark bg-dark cinzel w-100 position-absolute top-0">
             <div id="nav-contain" class="container-fluid">
               <a class="navbar-brand ms-3" href="#">
-               <img src="../assets/img/logo-metropoli-c.png" alt="" width="54" height="32">
+               <img src="../../assets/img/logo-metropoli.png" alt="" width="54" height="32">
              </a>
               <button id="navbar-open" class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: #616d5b"></span>
+                <span class="navbar-toggler-icon"></span>
               </button>
               <div class="justify-content-md-end navbar-collapse collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav" style="display: flex; align-items: center">
                   <li class="nav-item">
-                    <a class="nav-link" style="color: #616d5b;" href="../index.html">Inicio</a>
+                    <a class="nav-link active border-bottom border-2" aria-current="page" href="#" style="padding-bottom: 0px;">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: #616d5b;" href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active border-bottom border-2" aria-current="page" href="#" style="padding-bottom: 0px; color: #616d5b;">Proyectos</a>
+                    <a class="nav-link" href="../../html/proyectos.html">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link" style="color: #616d5b;" href="#">Blog</a>
+                   <a class="nav-link" href="#">Blog</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" style="color: #616d5b;" href="#">Contacto</a>
+                   <a class="nav-link" href="#">Contacto</a>
                  </li>
                  <li id="nav-close">
                      <button id="navbar-close" class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
@@ -57,45 +57,68 @@
               </div>
             </div>
       </nav>
+            
+            <!--Slider-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+             </div>
+              <div class="carousel-inner"> 
+                <div class="carousel-item active">
+                  <img src="../../assets/img/residencia/s-r1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-uppercase mb-0 cinzel-bold">55 cien</h5>
+                    <p>Conjunto residencial Barranquilla - Colombia Construido en 2015</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../../assets/img/residencia/s-r1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../../assets/img/residencia/s-r1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../../assets/img/residencia/s-r1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+         </div>
         </Header>
         
-        <div class="container" style="padding-top: 95px">
-                <div class="row row-cols-auto justify-content-md-center justify-content-start">
-                    <p class="cinzel-bold text-uppercase fs-5 mb-0 border-bottom border-2" style="color: #616d5b">Proyectos</p>
-                </div> 
-            <div class="row row-cols-auto justify-content-md-center">
-                <div class="col text-muted">En Venta</div>
-                <div class="col text-muted">Todos</div>
-                <div class="col text-muted">Comercial</div>
-                <div class="col text-muted">Educativos</div>
-                <div class="col text-muted">Oficinas</div>
-                <div class="col border-bottom border-2 mx-0" style="color: #616d5b">Residenciales</div>
-                <div class="col text-muted">Salud</div>
-                <div class="col text-muted">Turismo</div>
+        <div class="m-4 p-4"></div>
+        
+        <div class="container text-center">
+            <h4 class="text-uppercase pb-3" style="color: #616d5b">Descripción</h4>
+            <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. cillum dolore eu. fugiat nulla pariatur. fugiat nulla pariatur</p>
+            <p class="fw-light">Cillum dolore eu. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. cillum dolore eu. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. cillum dolore eu. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. cillum dolore eu. fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            
+            <div class="m-4 p-4"></div>
+            
+            <div>
+                <h4 class="text-uppercase pb-3" style="color: #616d5b">Zonas comunes</h4>
+                <ul class="list-unstyled">
+                  <li>- Parques infantiles</li>
+                  <li>- Gimnasio</li>
+                  <li>- SPA</li>
+                  <li>- Piscinas</li>
+                </ul>
             </div>
+            
+            <div class="m-4 p-4"></div>
+            
         </div>
-        <div class="m-2 p-2"></div>
+        
       
-        <div class="m-2 row row-cols-1 row-cols-md-3">
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-           <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-        </div>
         
         <footer>
           <div class="container text-center">
