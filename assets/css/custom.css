@@ -63,7 +63,7 @@ and (max-width : 768px) {
     }
     .footer-siguenos{
         order: 0;
-        font-size: ;
+        font-size: 1.2rem;
     }
     .footer-empresa{
         order: 3;
