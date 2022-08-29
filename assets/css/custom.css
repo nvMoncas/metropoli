@@ -86,4 +86,23 @@ and (max-width : 768px) {
         height: 1px;
         background-color: #616d5b;
     }
+    #navbar-id::after{
+        content: "";
+        position: absolute;
+        display: block;
+        width: calc(100% - 52px);
+        height: 1px;
+        background-color: white;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .proyectos-titulo{
+        justify-content: center!important;
+    }
+    .proyectos-secciones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
 }
