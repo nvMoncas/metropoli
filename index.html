@@ -10,41 +10,41 @@
     <meta name="description" content="">
     <meta name="author" content="Metropoli SA">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../assets/img/favicon-metropoli.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon-metropoli.png" type="image/x-icon"/>
     
     <!-- custom -->
     
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../assets/css/custom.css" type="text/css">
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </head>
-    <body id="body" class="proyectos">
-        <Header class="position-relative">
-            <nav id="navbar-id" class="navbar navbar-expand-md navbar-dark bg-dark cinzel w-100 position-absolute top-0" >
+    <body id="body">
+        <Header class="d-flex flex-column position-relative">
+          <nav id="navbar-id" class="navbar navbar-expand-md navbar-dark bg-dark cinzel w-100 position-absolute top-0">
             <div id="nav-contain" class="container-fluid">
               <a class="navbar-brand ms-3" href="#">
-               <img src="../assets/img/logo-metropoli-c.png" alt="" width="54" height="32">
+               <img src="assets/img/logo-metropoli.png" alt="" width="54" height="32">
              </a>
               <button id="navbar-open" class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: #616d5b"></span>
+                <span class="navbar-toggler-icon"></span>
               </button>
               <div class="justify-content-md-end navbar-collapse collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav" style="display: flex; align-items: center">
                   <li class="nav-item">
-                    <a class="nav-link"  href="../index.html">Inicio</a>
+                    <a class="nav-link active border-bottom border-2" aria-current="page" href="#" style="padding-bottom: 0px;">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"  href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active border-bottom border-2" aria-current="page" href="#" style="padding-bottom: 0px;">Proyectos</a>
+                    <a class="nav-link" href="html/proyectos.html">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link"  href="#">Blog</a>
+                   <a class="nav-link" href="#">Blog</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link"  href="#">Contacto</a>
+                   <a class="nav-link" href="#">Contacto</a>
                  </li>
                  <li id="nav-close">
                      <button id="navbar-close" class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
@@ -57,47 +57,40 @@
               </div>
             </div>
       </nav>
+            
+            <!--Slider-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" >
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active h-100">
+                  <img src="assets/img/slider/slider-1.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="assets/img/slider/slider-2.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="assets/img/slider/slider-3.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="assets/img/slider/slider-4.jpg" class="d-block w-100 h-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+         </div>
         </Header>
-        
-        <div class="container" style="padding-top: 95px">
-                <div class="row row-cols-auto justify-content-md-center justify-content-start proyectos-titulo">
-                    <p class="cinzel-bold text-uppercase fs-5 mb-0 border-bottom border-2" style="color: #616d5b">Proyectos</p>
-                </div> 
-            <div class="row row-cols-auto justify-content-md-center proyectos-secciones">
-                <div class="col text-muted fw-light btn" data-filter="">En Venta</div>
-                <div class="col text-muted fw-light btn" data-filter="">Todos</div>
-                <div class="col text-muted fw-light btn" data-filter="">Comercial</div>
-                <div class="col text-muted fw-light btn" data-filter="">Educativos</div>
-                <div class="col text-muted fw-light btn" data-filter="">Oficinas</div>
-                <div class="col border-bottom border-2 mx-0 fw-bold btn" data-filter="" style="color: #616d5b">Residenciales</div>
-                <div class="col text-muted fw-light btn" data-filter="">Salud</div>
-                <div class="col text-muted fw-light btn" data-filter="">Turismo</div>
-            </div>
-        </div>
-        <div class="m-2 p-2"></div>
-      
-        <div class="m-2 row row-cols-1 row-cols-md-3">
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-           <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r1.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-            <div class="col" style="padding: 2px;">
-                <a href="residenciales/r1.html"><img src="../assets/img/residencia/r2.jpg" class="d-block w-100" alt="..."></a>
-            </div>
-        </div>
-        
-        <footer>
+        <footer >
           <div class="container text-center">
              <div class="row align-items-start">
                <div class="footer-info col-md">
@@ -133,6 +126,7 @@
              </div>
            </div>
        </footer>
-        <script src="../assets/js/main.js"></script>
+       <script src="assets/js/main.js"></script>
+
     </body>
 </html>
