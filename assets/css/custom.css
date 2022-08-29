@@ -1,10 +1,10 @@
 @font-face {
     font-family: "cinzel-r";
-    src: url("/font/cinzel/Cinzel-VariableFont_wght.ttf");
+    src: url("../font/cinzel/Cinzel-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: "cinzel-b";
-    src: url("/font/cinzel/static/Cinzel-Bold.ttf");
+    src: url("../font/cinzel/static/Cinzel-Bold.ttf");
 }
 .cinzel{
     font-family: "cinzel-r";
@@ -36,8 +36,11 @@ footer{
 .carousel-item img{
     object-fit: cover;
 }
-.proyectos .nav-item .nav-link{
+.proyectos .nav-item .nav-link, .verde-principal {
     color: #616d5b;
+}
+.footer-siguenos a{
+    text-decoration: none;
 }
 /* Desktops and laptops ----------- */
 @media only screen 
@@ -64,8 +67,16 @@ and (max-width : 768px) {
     .footer-info{
         order: 1;
     }
+    .footer-info p{
+        font-size: 0.9rem;
+        color: #e5e5e5!important;
+    }
     .footer-direccion{
         order: 2;
+    }
+    .footer-direccion p{
+        font-size: 0.9rem;
+        color: #e5e5e5!important;
     }
     .footer-siguenos{
         order: 0;
@@ -74,9 +85,14 @@ and (max-width : 768px) {
     .footer-empresa{
         order: 3;
         position: relative;
+        font-size: 0.8rem;
     }
     .footer-derechos{
         order: 4;
+    }
+    .footer-derechos p, .footer-derechos small{
+        font-size: 0.8rem;
+        color: #e5e5e5!important;
     }
     .footer-empresa:after{
         content: "";
@@ -116,5 +132,11 @@ and (max-width : 768px) {
     }
     .proyectos .navbar-mobile-open .nav-item .nav-link{
         color: white;
+    }
+    .slider2{
+        object-position: 95% 50%;
+    }
+    .slider4{
+        object-position: 80% 50%;
     }
 }
