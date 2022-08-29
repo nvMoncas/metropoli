@@ -42,6 +42,21 @@ footer{
 .footer-siguenos a{
     text-decoration: none;
 }
+.carousel-indicators [data-bs-target]{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.texto-slide{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 75vw;
+    transform: translateX(-50%);
+    text-align: right;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
@@ -63,6 +78,17 @@ and (max-width : 768px) {
     }
     .carousel-inner{
         height: 100vh;
+    }
+    .texto-slide{
+        left: 50%;
+    }
+    .texto-slide br{
+        display: inline;
+    }
+    .texto-slide .mobile-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .footer-info{
         order: 1;
