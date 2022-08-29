@@ -33,6 +33,9 @@ footer{
 .container-fluid{
     transition: all .2s;
 }
+.carousel-item img{
+    object-fit: cover;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
@@ -53,7 +56,7 @@ and (max-width : 768px) {
         margin-top: 1rem;
     }
     .carousel-inner{
-        height: auto;
+        height: 100vh;
     }
     .footer-info{
         order: 1;
