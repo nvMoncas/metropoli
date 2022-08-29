@@ -36,6 +36,9 @@ footer{
 .carousel-item img{
     object-fit: cover;
 }
+.proyectos .nav-item .nav-link{
+    color: #616d5b;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
@@ -104,5 +107,14 @@ and (max-width : 768px) {
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
+    }
+    .navbar-mobile-open{
+        position: fixed!important;
+    }
+    .body-mobile-open{
+        position: fixed;
+    }
+    .proyectos .navbar-mobile-open .nav-item .nav-link{
+        color: white;
     }
 }
