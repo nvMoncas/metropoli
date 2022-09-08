@@ -30,7 +30,7 @@ nav{
 .nav-link::after{
     padding: 0;
     content: '';
-    height: 1px;
+    height: 0.5px;
     width:0;
     background: #fff;
     position: absolute;
@@ -86,6 +86,16 @@ footer{
     transform: translateX(-50%);
     text-align: right;
 }
+.proyectos .border-bottom{
+    border-bottom-color: #616d5b!important;
+}
+.raya, .raya-titulo{
+    margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
@@ -193,5 +203,8 @@ and (max-width : 768px) {
     }
     .slider4{
         object-position: 80% 50%;
+    }
+    .raya{
+        border: 0px!important;
     }
 }
