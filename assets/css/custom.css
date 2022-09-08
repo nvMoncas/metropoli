@@ -65,8 +65,11 @@ footer{
 .carousel-item img{
     object-fit: cover;
 }
-.proyectos .nav-item .nav-link, .verde-principal {
+.menu-verde .nav-item .nav-link, .verde-principal {
     color: #616d5b;
+}
+.menu-verde .nav-item .nav-link::after{
+    background: #616d5b;
 }
 .footer-siguenos a{
     text-decoration: none;
@@ -86,7 +89,7 @@ footer{
     transform: translateX(-50%);
     text-align: right;
 }
-.proyectos .border-bottom{
+.menu-verde .border-bottom{
     border-bottom-color: #616d5b!important;
 }
 .raya, .raya-titulo{
@@ -98,7 +101,7 @@ footer{
 .btn{
     --bs-btn-border-width: 0;
 }
-.proyectos .container{
+.menu-verde .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +206,7 @@ and (max-width : 768px) {
     .body-mobile-open{
         position: fixed;
     }
-    .proyectos .navbar-mobile-open .nav-item .nav-link{
+    .menu-verde .navbar-mobile-open .nav-item .nav-link{
         color: white;
     }
     .slider2{
