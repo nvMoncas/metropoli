@@ -34,7 +34,7 @@ nav{
     width:0;
     background: #fff;
     position: absolute;
-    bottom: 0px;
+    bottom: 4px;
     left: 0px;
     transition: 0.5s;
 }
@@ -97,6 +97,11 @@ footer{
 }
 .btn{
     --bs-btn-border-width: 0;
+}
+.proyectos .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Desktops and laptops ----------- */
