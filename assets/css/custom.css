@@ -207,6 +207,12 @@ and (max-width : 768px) {
         align-items: center;
         justify-content: center;
     }
+    .menu-secciones .col::before{
+        display: none;
+    }
+    .menu-secciones .active::after, .menu-secciones .col:hover::after{
+        display: none;
+    }
     .footer-info{
         order: 1;
     }
