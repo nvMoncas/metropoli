@@ -1,16 +1,30 @@
 @font-face {
-    font-family: "cinzel-r";
-    src: url("../font/cinzel/Cinzel-VariableFont_wght.ttf");
+    font-family: "crimson-regular";
+    src: url("../font/crimson/TTF/Crimson-Roman.ttf");
 }
 @font-face {
-    font-family: "cinzel-b";
-    src: url("../font/cinzel/static/Cinzel-Bold.ttf");
+    font-family: "cinzel-bold";
+    src: url("../font/crimson/TTF/Crimson-Bold.ttf");
 }
-.cinzel{
-    font-family: "cinzel-r";
+@font-face {
+    font-family: "montserrat-semibold";
+    src: url("../font/montserrat/Montserrat-SemiBold.otf");
 }
-.cinzel-bold{
-    font-family: "cinzel-b";
+@font-face {
+    font-family: "montserrat-light";
+    src: url("../font/montserrat/Montserrat-Light.otf");
+}
+.crimson-r{
+    font-family: "crimson-regular";
+}
+.cinzel-b{
+    font-family: "cinzel-bold";
+}
+.montserrat-sb{
+    font-family: "montserrat-semibold";
+}
+.montserrat-l{
+    font-family: "montserrat-light";
 }
 nav{
     z-index: 5;
