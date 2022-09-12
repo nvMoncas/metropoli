@@ -14,6 +14,10 @@
     font-family: "montserrat-light";
     src: url("../font/montserrat/Montserrat-ExtraLight.otf");
 }
+@font-face {
+    font-family: "montserrat-lightitalic";
+    src: url("../font/montserrat/Montserrat-LightItalic.otf");
+}
 .crimson-r{
     font-family: "crimson-regular";
 }
@@ -26,13 +30,16 @@
 .montserrat-l{
     font-family: "montserrat-light";
 }
+.montserrat-li{
+    font-family: "montserrat-lightitalic";
+}
 .gris{
     color: #e5e5e5;
 }
 .menu-verde .nav-item .nav-link, .verde-principal, .btn.active.verde-principal {
     color: #616d5b;
 }
-.menu-verde .nav-item .nav-link::after{
+.menu-verde .nav-item .nav-link::after, .bg-verde-principal{
     background: #616d5b;
 }
 nav{
