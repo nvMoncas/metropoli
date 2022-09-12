@@ -3,8 +3,8 @@
     src: url("../font/crimson/TTF/Crimson-Roman.ttf");
 }
 @font-face {
-    font-family: "cinzel-bold";
-    src: url("../font/crimson/TTF/Crimson-Bold.ttf");
+    font-family: "crimson-bold";
+    src: url("../font/crimson/TTF/Crimson-Semibold.ttf");
 }
 @font-face {
     font-family: "montserrat-semibold";
@@ -12,19 +12,28 @@
 }
 @font-face {
     font-family: "montserrat-light";
-    src: url("../font/montserrat/Montserrat-Light.otf");
+    src: url("../font/montserrat/Montserrat-ExtraLight.otf");
 }
 .crimson-r{
     font-family: "crimson-regular";
 }
-.cinzel-b{
-    font-family: "cinzel-bold";
+.crimson-b{
+    font-family: "crimson-bold";
 }
 .montserrat-sb{
     font-family: "montserrat-semibold";
 }
 .montserrat-l{
     font-family: "montserrat-light";
+}
+.gris{
+    color: #e5e5e5;
+}
+.menu-verde .nav-item .nav-link, .verde-principal {
+    color: #616d5b;
+}
+.menu-verde .nav-item .nav-link::after{
+    background: #616d5b;
 }
 nav{
     z-index: 5;
@@ -48,7 +57,7 @@ nav{
     width:0;
     background: #fff;
     position: absolute;
-    bottom: 4px;
+    bottom: 6px;
     left: 0px;
     transition: 0.5s;
 }
@@ -78,12 +87,6 @@ footer{
 }
 .carousel-item img{
     object-fit: cover;
-}
-.menu-verde .nav-item .nav-link, .verde-principal {
-    color: #616d5b;
-}
-.menu-verde .nav-item .nav-link::after{
-    background: #616d5b;
 }
 .footer-siguenos a{
     text-decoration: none;
@@ -120,7 +123,22 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
+/* font size footer --- */
+.footer-info p{
+    font-size: 0.9rem;
+}
+.footer-direccion p{
+    font-size: 0.9rem;
+}
+.footer-siguenos{
+    font-size: 1.2rem;
+}
+.footer-empresa{
+    font-size: 0.8rem;
+}
+.footer-derechos p, .footer-derechos small{
+    font-size: 0.8rem;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
