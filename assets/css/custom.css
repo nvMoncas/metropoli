@@ -140,6 +140,18 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/* apartado nosotros - */
+.ver-todos{
+    flex-direction: column;
+}
+.svg-ver-todos{
+    margin: auto;
+}
+.text-ver-todos{
+    color: darkgray;
+    border-bottom: 2px solid darkgray;
+    margin: auto;
+}
 /* font size footer --- */
 .footer-info p{
     font-size: 0.9rem;
