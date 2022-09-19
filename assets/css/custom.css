@@ -36,6 +36,16 @@
 .gris{
     color: #e5e5e5;
 }
+.logo{
+    background-image: url(/assets/img/logo-metropoli-c.png) ;
+    background-size: contain;
+    height: 33px;
+    width: 47px;
+}
+.navbar-mobile-open .logo{
+    background-image: url(/assets/img/logo-metropoli.png) ;
+    background-size: contain;
+}
 .menu-verde .nav-item .nav-link, .verde-principal, .btn.active.verde-principal {
     color: #616d5b;
 }
@@ -146,6 +156,7 @@ footer{
 .footer-derechos p, .footer-derechos small{
     font-size: 0.8rem;
 }
+/* end font size footer --- */
 .menu-secciones .col{
     position: relative;
 }
