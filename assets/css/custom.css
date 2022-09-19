@@ -189,6 +189,10 @@ footer{
 .grayscale{
     filter: grayscale(100%);
 }
+.img-empleados{
+    object-fit: cover;
+    height: 100%;
+}
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
