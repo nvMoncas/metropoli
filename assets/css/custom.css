@@ -234,30 +234,33 @@ and (max-width : 768px) {
     }
     .footer-info p{
         font-size: 0.9rem;
-        color: #e5e5e5!important;
     }
     .footer-direccion{
         order: 2;
     }
     .footer-direccion p{
         font-size: 0.9rem;
-        color: #e5e5e5!important;
+        font-family: "montserrat-light";
     }
     .footer-siguenos{
+        padding-top: 20px;
+        margin-top: 10px;
         order: 0;
         font-size: 1.2rem;
+
     }
     .footer-empresa{
         order: 3;
         position: relative;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .footer-derechos{
         order: 4;
     }
     .footer-derechos p, .footer-derechos small{
-        font-size: 0.8rem;
-        color: #e5e5e5!important;
+        font-size: 0.9rem;
+        font-family: "montserrat-light";
+        
     }
     .footer-empresa:after{
         content: "";
