@@ -169,7 +169,15 @@ footer{
     bottom: 25px;
     right: 0px;
 }
-
+/* apartado proyecto residencia */
+.galeria-residencia{
+    padding: 2px;
+}
+.img-galeria-residencia{
+    object-fit: cover;
+    width: 230px;
+    height: 215px;
+}
 /* font size footer --- */
 .footer-info p{
     font-size: 0.9rem;
