@@ -10,6 +10,10 @@
     font-family: "montserrat-semibold";
     src: url("../font/montserrat/Montserrat-SemiBold.otf");
 }
+@font-face{
+    font-family: "montserrat-regular";
+    src: url(../font/montserrat/Montserrat-Regular.otf)
+}
 @font-face {
     font-family: "montserrat-light";
     src: url("../font/montserrat/Montserrat-ExtraLight.otf");
@@ -30,11 +34,20 @@
 .montserrat-l{
     font-family: "montserrat-light";
 }
+.montserrat-r{
+    font-family: "montserrat-regular";
+}
 .montserrat-li{
     font-family: "montserrat-lightitalic";
 }
 .verde-claro{
     color: #82887f;
+}
+.bg-gris{
+    background-color: #d0d3d1;
+}
+.bg-verde-claro{
+    background-color: #82887f; 
 }
 .logo{
     background-image: url(/assets/img/logo-metropoli-c.png) ;
@@ -177,6 +190,9 @@ footer{
     object-fit: cover;
     width: 230px;
     height: 215px;
+}
+.filtro-img-slider{
+    filter: brightness(0.30);
 }
 /* font size footer --- */
 .footer-info p{
