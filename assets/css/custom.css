@@ -373,10 +373,10 @@ and (max-width : 768px) {
         color: white;
     }
     .slider2{
-        object-position: 95% 50%;
+        object-position: 65% 50%;
     }
     .slider4{
-        object-position: 80% 50%;
+        object-position: 60% 50%;
     }
     .raya{
         border: 0px!important;
