@@ -372,8 +372,14 @@ and (max-width : 768px) {
     .menu-verde .navbar-mobile-open .nav-item .nav-link{
         color: white;
     }
+    .slider1{
+        object-position: 60% 50%;
+    }
     .slider2{
         object-position: 65% 50%;
+    }
+    .slider3{
+        object-position: 54% 50%;
     }
     .slider4{
         object-position: 60% 50%;
