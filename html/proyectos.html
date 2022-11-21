@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="../assets/css/custom.css" type="text/css">
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.6.1.min.js"></script>
 </head>
     <body id="body" class="menu-verde">
         <Header class="position-relative">
@@ -41,7 +42,7 @@
                     <a class="nav-link active" aria-current="page" href="proyectos.html">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link"  href="#">Blog</a>
+                   <a class="nav-link"  href="https://newsite.metropolisa.com/blog/">Blog</a>
                  </li>
                  <li class="nav-item d-none">
                    <a class="nav-link"  href="contacto.html">Contacto</a>
@@ -65,57 +66,57 @@
                     <p class="crimson-b verde-principal text-uppercase fs-5 mb-0 border-bottom border-1 raya-titulo">Proyectos</p>
                 </div> 
                 <div class="row row-cols-auto menu-secciones">
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">En Venta</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Todos</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Comercial</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Educativos</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Oficinas</div>
-                    <div class="col montserrat-sb btn rounded-0 raya separador active verde-principal" data-filter="">Residenciales</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Salud</div>
-                    <div class="col montserrat-l verde-claro btn rounded-0 raya separador" data-filter="">Turismo</div>
+                    <div data-filter="venta" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">En Venta</div>
+                    <div data-filter="todos" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Todos</div>
+                    <div data-filter="comercial" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Comercial</div>
+                    <div data-filter="educativos" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Educativos</div>
+                    <div data-filter="oficinas" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Oficinas</div>
+                    <div data-filter="residenciales" class="col filter-sel montserrat-sb btn rounded-0 raya separador active verde-principal">Residenciales</div>
+                    <div data-filter="salud" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Salud</div>
+                    <div data-filter="turismo" class="col filter-sel montserrat-l verde-claro btn rounded-0 raya separador">Turismo</div>
                 </div>
                 
             </div>
         </div>
         <div class="m-2 p-2"></div>
       
-        <div class="row row-cols-1 row-cols-md-3">
+        <div id="proyecto-container" class="row row-cols-1 row-cols-md-3">
             <div class="col position-relative" style="padding: 2px;">
                 <p class="position-absolute text-overlay text-white">55 Cien</p>
-                <a href="residenciales/cien55.html"><img src="../assets/img/residencia/galeria-p/55cien/portada-cien55.jpg" class="d-block w-100" alt="...">
+                <a href="residenciales/cien55.html"><img src="../assets/img/proyectos/residenciales/55cien/_CK84240-AV2.jpg" class="d-block img-portada" alt="...">
                 </a>
             </div>
            <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Verdi 74</p>
-              <a href="residenciales/verdi74.html"><img src="../assets/img/residencia/galeria-p/verdi74/portada-verdi.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/verdi74.html"><img src="../assets/img/proyectos/residenciales/verdi-74/_CK93616-A.JPG" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Rincón 94-72</p>
-              <a href="residenciales/rincon94.html"><img src="../assets/img/residencia/galeria-p/rincon94/portada-rincon.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/rincon94.html"><img src="../assets/img/proyectos/residenciales/rincon-94/DSC_0021.JPG" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
                 <p class="position-absolute text-overlay text-white">Aguamarina Beach Resort</p>
-                <a href="residenciales/aguamarina_beach_resort.html"><img src="../assets/img/residencia/galeria-p/aguamarina/portada-aguamarina.jpg" class="d-block w-100" alt="..."></a>
+                <a href="residenciales/aguamarina_beach_resort.html"><img src="../assets/img/proyectos/residenciales/aguamarina-beach-resort/Aguamarina Beach Resort.jpg" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Betania</p>
-              <a href="residenciales/betania.html"><img src="../assets/img/residencia/galeria-p/betania/portada-betania.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/betania.html"><img src="../assets/img/proyectos/residenciales/betania/01.JPG" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">El Encanto</p>
-              <a href="residenciales/el_encanto.html"><img src="../assets/img/residencia/galeria-p/encanto/portada-encanto.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/el_encanto.html"><img src="../assets/img/proyectos/residenciales/el-encanto/DSC_0145.JPG" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Gardens View</p>
-              <a href="residenciales/gardens_view.html"><img src="../assets/img/residencia/galeria-p/gardens/portada-gardens.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/gardens_view.html"><img src="../assets/img/proyectos/residenciales/gardens-view/_CKP7824-Edit-B.jpg" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Puntawa</p>
-              <a href="residenciales/puntawa.html"><img src="../assets/img/residencia/galeria-p/puntawa/portada-puntawa.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/puntawa.html"><img src="../assets/img/proyectos/residenciales/puntawa/img 3 edit.jpg" class="d-block img-portada" alt="..."></a>
             </div>
             <div class="col position-relative" style="padding: 2px;">
               <p class="position-absolute text-overlay text-white">Winds 21</p>
-              <a href="residenciales/winds21.html"><img src="../assets/img/residencia/galeria-p/winds21/portada-winds.jpg" class="d-block w-100" alt="..."></a>
+              <a href="residenciales/winds21.html"><img src="../assets/img/proyectos/residenciales/winds-21/portadawinds.jpg" class="d-block img-portada" alt="..."></a>
           </div>
         </div>
         
