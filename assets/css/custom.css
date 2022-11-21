@@ -41,7 +41,10 @@
     font-family: "montserrat-lightitalic";
 }
 .verde-claro{
-    color: #82887f;
+    color: #abb1a8;
+}
+.gris{
+    color: #919c8f;
 }
 .bg-gris{
     background-color: #d0d3d1;
@@ -182,7 +185,16 @@ footer{
     bottom: 25px;
     right: 0px;
 }
+.contenedor-textos{
+    max-width: 67%;
+    margin: auto;
+}
 /* apartado proyecto residencia */
+.img-portada{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .galeria-residencia{
     padding: 2px;
 }
@@ -258,14 +270,55 @@ footer{
     object-fit: cover;
     height: 100%;
 }
+/*Responsiv text -- */
+/* On screens that are 1400px wide or less(xx-large), container text = 70% */
+@media screen and (max-width: 1400px) {
+    .responsive-container-text {
+        max-width: 70%;
+        margin: auto;
+      }
+  }
+  /* On screens that are 1200px wide or less(x-large), container text = 75% */
+@media screen and (max-width: 1200px) {
+    .responsive-container-text {
+        max-width: 75%;
+        margin: auto;
+      }
+  }
+/* On screens that are 992px wide or less(large), container text = 85% */
+@media screen and (max-width: 992px) {
+    .responsive-container-text {
+        max-width: 85%;
+        margin: auto;
+      }
+}
+  /* On screens that are 768px wide or less(medium), container text = 95% */
+  @media screen and (max-width: 768px) {
+    .responsive-container-text {
+        max-width: 95%;
+        margin: auto;
+      }
+  }
+/* On screens that are 576px wide or less(sm), container text = 100% */
+@media screen and (max-width: 576px) {
+    .responsive-container-text {
+        max-width: 100%;
+        margin: auto;
+      }
+  }
+/*Responsiv text -- */
 /* Desktops and laptops ----------- */
 @media only screen 
 and (max-width : 768px) {
     /* Styles */
+    .navbar-expand-md.navbar-mobile-open .navbar-nav .nav-link{
+        font-size: 1.2rem;
+    }
     #navbar-id.bg-dark.navbar-mobile-open{
         background-color: #606d5b!important;
         height: 100vh;
         z-index: 50;
+        fill: #fff;
     }
     .navbar>.container-fluid.navbar-container-mobile{
         height: 100%;
@@ -273,6 +326,11 @@ and (max-width : 768px) {
     }
     .navbar-close-button{
         margin-top: 20vh;
+    }
+    /* margin div nosotros*/
+    .mobil-margin{
+        margin-left: 4%;
+        margin-right: 4%;
     }
     footer{
         margin-top: 1rem;
