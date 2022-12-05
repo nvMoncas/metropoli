@@ -41,7 +41,7 @@
     font-family: "montserrat-lightitalic";
 }
 .verde-claro{
-    color: #abb1a8;
+    color: #6c7068;
 }
 .gris{
     color: #919c8f;
@@ -53,7 +53,7 @@
     background-color: #82887f; 
 }
 .logo{
-    background-image: url(/assets/img/logo-metropoli-c.png) ;
+    background-image: url(../../assets/img/logo-metropoli-c.png) ;
     background-size: contain;
     height: 33px;
     width: 47px;
@@ -151,11 +151,12 @@ footer{
 .btn{
     --bs-btn-border-width: 0;
 }
-.menu-verde .container{
+.menu-verde {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* apartado nosotros - */
 .ver-todos{
     flex-direction: column;
@@ -167,6 +168,10 @@ footer{
     color: darkgray;
     border-bottom: 2px solid darkgray;
     margin: auto;
+}
+.cont-nosotros{
+    margin: 0 auto;
+    padding: 0px
 }
 .numeracion{
     width: 95px;
@@ -220,7 +225,7 @@ footer{
     font-size: 0.8rem;
 }
 .footer-derechos p, .footer-derechos small{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 /* end font size footer --- */
 .menu-secciones .col{
@@ -445,4 +450,258 @@ and (max-width : 768px) {
     .raya{
         border: 0px!important;
     }
+
+}
+
+
+/* IMAGENES SLIDER PRINCIPAL */
+.img-degradado{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+}
+.img-degradado::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-degradado-i{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+}
+.img-degradado-i::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #0000002e, #00000057, #00000073, #000000b8, #030303);
+}
+.img-country{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/comercial/country-plaza/DSC_0090.JPG");
+}
+.img-country::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-exito{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/comercial/exito51b/exito51b.jpeg");
+}
+.img-exito::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-ocean{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/comercial/ocean-mall-sta-marta/P1030240.JPG");
+}
+.img-ocean::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-sanjose{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/colegio-san-jose/Portada.JPG");
+}
+.img-sanjose::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-santalucia{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/colegio-santa-lucia/mp-proyectos-educativo-santalucia-1.jpeg");
+}
+.img-santalucia::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-multiproposito{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/edificio-multiproposito/UNINORTE-2.jpg");
+}
+.img-multiproposito::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-piesdescalzosbq{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/pies-descalzos-bquilla/portadapiesdescalzos.jpg");
+}
+.img-piesdescalzosbq::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-piesdescalzoscgena{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/pies-descalzos-ctg/portadapdc.jpg");
+}
+.img-piesdescalzoscgena::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-unisur{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/educativo/unisur/suanprensa_2.jpg");
+}
+.img-unisur::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-altamar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/residenciales/aguamarina-beach-resort/DJI_0713.jpg");
+}
+.img-altamar::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-bcempresarial{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/empresarial/bc-empresarial/8.jpg");
+}
+.img-bcempresarial::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+.img-lasamericas1l{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
+    background: url("../../assets/img/proyectos/empresarial/las-americas1/DSC_0102.JPG");
+}
+.img-lasamericas1l::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
 }
