@@ -45,7 +45,7 @@
 }
 
 .gris{
-    color: #919c8f;
+    color: #4d564b;
 }
 .bg-gris{
     background-color: #d0d3d1;
@@ -712,4 +712,17 @@ and (max-width : 768px) {
   width: 100%;
   height: 100%;
   background:linear-gradient(to top, #030303, #000000b8, #00000073, #00000057, #0000002e);
+}
+
+/* Display elementos slider */
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.carousel-indicators{
+    display: none;
 }
